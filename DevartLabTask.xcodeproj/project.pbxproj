@@ -60,7 +60,6 @@
 		B7E24255284B6B6400A7FE0A /* DevartLabTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevartLabTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E24259284B6B6400A7FE0A /* DevartLabTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskUITests.swift; sourceTree = "<group>"; };
 		B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B7E2426A284B6BAB00A7FE0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = DevartLabTask/README.md; sourceTree = "<group>"; };
 		B7E24276284B6CE200A7FE0A /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
 		B7E24278284B6D4400A7FE0A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		B7E2427A284B6D5800A7FE0A /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
@@ -102,7 +101,6 @@
 		B7E24229284B6B6300A7FE0A = {
 			isa = PBXGroup;
 			children = (
-				B7E2426A284B6BAB00A7FE0A /* README.md */,
 				B7E24234284B6B6300A7FE0A /* DevartLabTask */,
 				B7E2424E284B6B6400A7FE0A /* DevartLabTaskTests */,
 				B7E24258284B6B6400A7FE0A /* DevartLabTaskUITests */,
