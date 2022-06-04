@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B7E24236284B6B6300A7FE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24235284B6B6300A7FE0A /* AppDelegate.swift */; };
 		B7E24238284B6B6300A7FE0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */; };
-		B7E2423A284B6B6300A7FE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24239284B6B6300A7FE0A /* ViewController.swift */; };
 		B7E2423D284B6B6300A7FE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E2423B284B6B6300A7FE0A /* Main.storyboard */; };
 		B7E24240284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E2423E284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld */; };
 		B7E24242284B6B6400A7FE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E24241284B6B6400A7FE0A /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		B7E24250284B6B6400A7FE0A /* DevartLabTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2424F284B6B6400A7FE0A /* DevartLabTaskTests.swift */; };
 		B7E2425A284B6B6400A7FE0A /* DevartLabTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24259284B6B6400A7FE0A /* DevartLabTaskUITests.swift */; };
 		B7E2425C284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */; };
+		B7E24277284B6CE200A7FE0A /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24276284B6CE200A7FE0A /* CoreDataRepository.swift */; };
+		B7E24279284B6D4400A7FE0A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24278284B6D4400A7FE0A /* UIView.swift */; };
+		B7E2427B284B6D5800A7FE0A /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2427A284B6D5800A7FE0A /* UIWindow.swift */; };
+		B7E24280284B6E8700A7FE0A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2427F284B6E8700A7FE0A /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		B7E24232284B6B6300A7FE0A /* DevartLabTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevartLabTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E24235284B6B6300A7FE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7E24239284B6B6300A7FE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7E2423C284B6B6300A7FE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7E2423F284B6B6300A7FE0A /* DevartLabTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DevartLabTask.xcdatamodel; sourceTree = "<group>"; };
 		B7E24241284B6B6400A7FE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,11 @@
 		B7E24255284B6B6400A7FE0A /* DevartLabTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevartLabTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E24259284B6B6400A7FE0A /* DevartLabTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskUITests.swift; sourceTree = "<group>"; };
 		B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7E2426A284B6BAB00A7FE0A /* ReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadME.md; sourceTree = "<group>"; };
+		B7E24276284B6CE200A7FE0A /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		B7E24278284B6D4400A7FE0A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B7E2427A284B6D5800A7FE0A /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		B7E2427F284B6E8700A7FE0A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +108,12 @@
 		B7E24234284B6B6300A7FE0A /* DevartLabTask */ = {
 			isa = PBXGroup;
 			children = (
-				B7E24235284B6B6300A7FE0A /* AppDelegate.swift */,
-				B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */,
-				B7E24239284B6B6300A7FE0A /* ViewController.swift */,
-				B7E2423B284B6B6300A7FE0A /* Main.storyboard */,
-				B7E24241284B6B6400A7FE0A /* Assets.xcassets */,
-				B7E24243284B6B6400A7FE0A /* LaunchScreen.storyboard */,
-				B7E24246284B6B6400A7FE0A /* Info.plist */,
-				B7E2423E284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld */,
+				B7E2426A284B6BAB00A7FE0A /* ReadME.md */,
+				B7E2426B284B6C2B00A7FE0A /* Application */,
+				B7E2426F284B6C4B00A7FE0A /* Presentation */,
+				B7E2426E284B6C4400A7FE0A /* Infrastructure */,
+				B7E2426D284B6C3B00A7FE0A /* Data */,
+				B7E2426C284B6C3100A7FE0A /* Domain */,
 			);
 			path = DevartLabTask;
 			sourceTree = "<group>";
@@ -128,6 +133,116 @@
 				B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */,
 			);
 			path = DevartLabTaskUITests;
+			sourceTree = "<group>";
+		};
+		B7E2426B284B6C2B00A7FE0A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24235284B6B6300A7FE0A /* AppDelegate.swift */,
+				B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */,
+				B7E24241284B6B6400A7FE0A /* Assets.xcassets */,
+				B7E24246284B6B6400A7FE0A /* Info.plist */,
+				B7E2423E284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B7E2426C284B6C3100A7FE0A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2427E284B6E7E00A7FE0A /* Entity */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B7E2426D284B6C3B00A7FE0A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2427D284B6E4800A7FE0A /* Storage */,
+				B7E2427C284B6E3700A7FE0A /* LocalDataRepo */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B7E2426E284B6C4400A7FE0A /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24274284B6CB900A7FE0A /* Repo */,
+				B7E24273284B6CB400A7FE0A /* Extension */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		B7E2426F284B6C4B00A7FE0A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24270284B6C6400A7FE0A /* UI */,
+				B7E24271284B6C6A00A7FE0A /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B7E24270284B6C6400A7FE0A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24272284B6C7000A7FE0A /* Storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7E24271284B6C6A00A7FE0A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B7E24272284B6C7000A7FE0A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24243284B6B6400A7FE0A /* LaunchScreen.storyboard */,
+				B7E2423B284B6B6300A7FE0A /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B7E24273284B6CB400A7FE0A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24278284B6D4400A7FE0A /* UIView.swift */,
+				B7E2427A284B6D5800A7FE0A /* UIWindow.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B7E24274284B6CB900A7FE0A /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24276284B6CE200A7FE0A /* CoreDataRepository.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		B7E2427C284B6E3700A7FE0A /* LocalDataRepo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalDataRepo;
+			sourceTree = "<group>";
+		};
+		B7E2427D284B6E4800A7FE0A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B7E2427E284B6E7E00A7FE0A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2427F284B6E8700A7FE0A /* UserModel.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +376,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7E2423A284B6B6300A7FE0A /* ViewController.swift in Sources */,
+				B7E24279284B6D4400A7FE0A /* UIView.swift in Sources */,
+				B7E24280284B6E8700A7FE0A /* UserModel.swift in Sources */,
 				B7E24236284B6B6300A7FE0A /* AppDelegate.swift in Sources */,
 				B7E24240284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld in Sources */,
+				B7E2427B284B6D5800A7FE0A /* UIWindow.swift in Sources */,
+				B7E24277284B6CE200A7FE0A /* CoreDataRepository.swift in Sources */,
 				B7E24238284B6B6300A7FE0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,12 +561,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4673NFB24A;
+				DEVELOPMENT_TEAM = VGWPAJ5SG4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DevartLabTask/Info.plist;
+				INFOPLIST_FILE = DevartLabTask/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +575,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTask;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.DevartLabTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,12 +590,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4673NFB24A;
+				DEVELOPMENT_TEAM = VGWPAJ5SG4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DevartLabTask/Info.plist;
+				INFOPLIST_FILE = DevartLabTask/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +604,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTask;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.DevartLabTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
