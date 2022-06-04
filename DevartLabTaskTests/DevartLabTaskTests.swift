@@ -9,7 +9,8 @@ import XCTest
 @testable import DevartLabTask
 
 class DevartLabTaskTests: XCTestCase {
-
+    var storage = AppStorage.init(type: .local)
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -32,5 +33,49 @@ class DevartLabTaskTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+        
+    @discardableResult func testInsertUser(success: (()->())) -> Bool? {
+        var request = UserRepoInOut.Insert.Request()
+        let  userId = Int.random(in: 1...10000)
+        request.id = userId
+        request.salary = 1100
+        request.name = "Dev"
+        storage.userRepo?.insertUser(request: request, response: { response in
+            XCTAssertEqual(response?.user?.id, userId, response?.message ?? "")
+        })
+        return nil
+    }
+    
+    @discardableResult func testGetAllUsers(success: (()->())) -> Bool? {
+        storage.userRepo?.getAllUser(request: nil, response: { response in
+            print(response?.users?.count ?? 0)
+            XCTAssertGreaterThan(response?.users?.count ?? 0, 0)
+        })
+        return nil
+    }
+    
+    
+    @discardableResult func testUpdateUser() -> Bool? {
+        storage.userRepo?.getAllUser(request: nil, response: { response in
+            let userId = response?.users?.first?.id
+            var request = UserRepoInOut.Update.Request()
+            request.id = userId
+            request.name = "Dev Updated"
+            self.storage.userRepo?.updateUser(request: request, response: { response in
+                XCTAssertEqual(response?.user?.name, "Dev Updated", response?.message ?? "")
+            })
+        })
+        return nil
+    }
+    
+     
+    func testUserLocalRepo() {
+        testInsertUser {
+            testGetAllUsers {
+                testUpdateUser()
+            }
+        }
+    }
 
 }
+

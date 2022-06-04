@@ -20,4 +20,9 @@ class UserModel {
     
     init() {}
     
+    init(user: User) {
+        self.id = Int(user.id)
+        self.name = user.name
+        self.salary = user.salary
+    }
 }

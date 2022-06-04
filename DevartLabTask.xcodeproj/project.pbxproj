@@ -20,6 +20,13 @@
 		B7E24279284B6D4400A7FE0A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24278284B6D4400A7FE0A /* UIView.swift */; };
 		B7E2427B284B6D5800A7FE0A /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2427A284B6D5800A7FE0A /* UIWindow.swift */; };
 		B7E24280284B6E8700A7FE0A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2427F284B6E8700A7FE0A /* UserModel.swift */; };
+		B7E24282284B729E00A7FE0A /* UserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24281284B729E00A7FE0A /* UserRepo.swift */; };
+		B7E24284284B730900A7FE0A /* UserLocalRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24283284B730900A7FE0A /* UserLocalRepo.swift */; };
+		B7E24287284B733F00A7FE0A /* RError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24286284B733F00A7FE0A /* RError.swift */; };
+		B7E2428A284B74C200A7FE0A /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24289284B74C200A7FE0A /* AppStorage.swift */; };
+		B7E2428C284B74EB00A7FE0A /* StorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2428B284B74EB00A7FE0A /* StorageType.swift */; };
+		B7E2428F284B771D00A7FE0A /* UserDemoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2428E284B771D00A7FE0A /* UserDemoRepo.swift */; };
+		B7E24292284B787000A7FE0A /* UserRepoInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24291284B787000A7FE0A /* UserRepoInOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,13 @@
 		B7E24278284B6D4400A7FE0A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		B7E2427A284B6D5800A7FE0A /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
 		B7E2427F284B6E8700A7FE0A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B7E24281284B729E00A7FE0A /* UserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepo.swift; sourceTree = "<group>"; };
+		B7E24283284B730900A7FE0A /* UserLocalRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocalRepo.swift; sourceTree = "<group>"; };
+		B7E24286284B733F00A7FE0A /* RError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RError.swift; sourceTree = "<group>"; };
+		B7E24289284B74C200A7FE0A /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		B7E2428B284B74EB00A7FE0A /* StorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageType.swift; sourceTree = "<group>"; };
+		B7E2428E284B771D00A7FE0A /* UserDemoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDemoRepo.swift; sourceTree = "<group>"; };
+		B7E24291284B787000A7FE0A /* UserRepoInOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepoInOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +172,10 @@
 		B7E2426D284B6C3B00A7FE0A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B7E24285284B732F00A7FE0A /* Utils */,
 				B7E2427D284B6E4800A7FE0A /* Storage */,
 				B7E2427C284B6E3700A7FE0A /* LocalDataRepo */,
+				B7E2428D284B770900A7FE0A /* DemoDataRepo */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -226,6 +242,7 @@
 		B7E2427C284B6E3700A7FE0A /* LocalDataRepo */ = {
 			isa = PBXGroup;
 			children = (
+				B7E24283284B730900A7FE0A /* UserLocalRepo.swift */,
 			);
 			path = LocalDataRepo;
 			sourceTree = "<group>";
@@ -233,6 +250,8 @@
 		B7E2427D284B6E4800A7FE0A /* Storage */ = {
 			isa = PBXGroup;
 			children = (
+				B7E24289284B74C200A7FE0A /* AppStorage.swift */,
+				B7E24288284B74B300A7FE0A /* repos */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -243,6 +262,40 @@
 				B7E2427F284B6E8700A7FE0A /* UserModel.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		B7E24285284B732F00A7FE0A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24286284B733F00A7FE0A /* RError.swift */,
+				B7E2428B284B74EB00A7FE0A /* StorageType.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B7E24288284B74B300A7FE0A /* repos */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24290284B786400A7FE0A /* User */,
+			);
+			path = repos;
+			sourceTree = "<group>";
+		};
+		B7E2428D284B770900A7FE0A /* DemoDataRepo */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2428E284B771D00A7FE0A /* UserDemoRepo.swift */,
+			);
+			path = DemoDataRepo;
+			sourceTree = "<group>";
+		};
+		B7E24290284B786400A7FE0A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24291284B787000A7FE0A /* UserRepoInOut.swift */,
+				B7E24281284B729E00A7FE0A /* UserRepo.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,11 +431,18 @@
 			files = (
 				B7E24279284B6D4400A7FE0A /* UIView.swift in Sources */,
 				B7E24280284B6E8700A7FE0A /* UserModel.swift in Sources */,
+				B7E2428A284B74C200A7FE0A /* AppStorage.swift in Sources */,
+				B7E2428C284B74EB00A7FE0A /* StorageType.swift in Sources */,
 				B7E24236284B6B6300A7FE0A /* AppDelegate.swift in Sources */,
 				B7E24240284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld in Sources */,
+				B7E24284284B730900A7FE0A /* UserLocalRepo.swift in Sources */,
 				B7E2427B284B6D5800A7FE0A /* UIWindow.swift in Sources */,
 				B7E24277284B6CE200A7FE0A /* CoreDataRepository.swift in Sources */,
+				B7E2428F284B771D00A7FE0A /* UserDemoRepo.swift in Sources */,
+				B7E24292284B787000A7FE0A /* UserRepoInOut.swift in Sources */,
+				B7E24282284B729E00A7FE0A /* UserRepo.swift in Sources */,
 				B7E24238284B6B6300A7FE0A /* SceneDelegate.swift in Sources */,
+				B7E24287284B733F00A7FE0A /* RError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
