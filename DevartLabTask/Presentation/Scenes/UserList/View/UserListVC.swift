@@ -57,7 +57,7 @@ extension UserListVC {
     
     func setupPresenter() {
         if presenter == nil {
-            presenter = UserPresenter.init(storage: AppStorage.init(type: .local), userView: self)
+            presenter = UserPresenter.init(storage: AppStorage.init(type: .demo), userView: self)
         }
     }
     
