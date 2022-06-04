@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7E24236284B6B6300A7FE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24235284B6B6300A7FE0A /* AppDelegate.swift */; };
+		B7E24238284B6B6300A7FE0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */; };
+		B7E2423A284B6B6300A7FE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24239284B6B6300A7FE0A /* ViewController.swift */; };
+		B7E2423D284B6B6300A7FE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E2423B284B6B6300A7FE0A /* Main.storyboard */; };
+		B7E24240284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7E2423E284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld */; };
+		B7E24242284B6B6400A7FE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E24241284B6B6400A7FE0A /* Assets.xcassets */; };
+		B7E24245284B6B6400A7FE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E24243284B6B6400A7FE0A /* LaunchScreen.storyboard */; };
+		B7E24250284B6B6400A7FE0A /* DevartLabTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2424F284B6B6400A7FE0A /* DevartLabTaskTests.swift */; };
+		B7E2425A284B6B6400A7FE0A /* DevartLabTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24259284B6B6400A7FE0A /* DevartLabTaskUITests.swift */; };
+		B7E2425C284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E2424C284B6B6400A7FE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E2422A284B6B6300A7FE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E24231284B6B6300A7FE0A;
+			remoteInfo = DevartLabTask;
+		};
+		B7E24256284B6B6400A7FE0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E2422A284B6B6300A7FE0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E24231284B6B6300A7FE0A;
+			remoteInfo = DevartLabTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7E24232284B6B6300A7FE0A /* DevartLabTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevartLabTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E24235284B6B6300A7FE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7E24239284B6B6300A7FE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7E2423C284B6B6300A7FE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E2423F284B6B6300A7FE0A /* DevartLabTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DevartLabTask.xcdatamodel; sourceTree = "<group>"; };
+		B7E24241284B6B6400A7FE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E24244284B6B6400A7FE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E24246284B6B6400A7FE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E2424B284B6B6400A7FE0A /* DevartLabTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevartLabTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E2424F284B6B6400A7FE0A /* DevartLabTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskTests.swift; sourceTree = "<group>"; };
+		B7E24255284B6B6400A7FE0A /* DevartLabTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevartLabTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E24259284B6B6400A7FE0A /* DevartLabTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskUITests.swift; sourceTree = "<group>"; };
+		B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevartLabTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E2422F284B6B6300A7FE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E24248284B6B6400A7FE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E24252284B6B6400A7FE0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E24229284B6B6300A7FE0A = {
+			isa = PBXGroup;
+			children = (
+				B7E24234284B6B6300A7FE0A /* DevartLabTask */,
+				B7E2424E284B6B6400A7FE0A /* DevartLabTaskTests */,
+				B7E24258284B6B6400A7FE0A /* DevartLabTaskUITests */,
+				B7E24233284B6B6300A7FE0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E24233284B6B6300A7FE0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24232284B6B6300A7FE0A /* DevartLabTask.app */,
+				B7E2424B284B6B6400A7FE0A /* DevartLabTaskTests.xctest */,
+				B7E24255284B6B6400A7FE0A /* DevartLabTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E24234284B6B6300A7FE0A /* DevartLabTask */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24235284B6B6300A7FE0A /* AppDelegate.swift */,
+				B7E24237284B6B6300A7FE0A /* SceneDelegate.swift */,
+				B7E24239284B6B6300A7FE0A /* ViewController.swift */,
+				B7E2423B284B6B6300A7FE0A /* Main.storyboard */,
+				B7E24241284B6B6400A7FE0A /* Assets.xcassets */,
+				B7E24243284B6B6400A7FE0A /* LaunchScreen.storyboard */,
+				B7E24246284B6B6400A7FE0A /* Info.plist */,
+				B7E2423E284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld */,
+			);
+			path = DevartLabTask;
+			sourceTree = "<group>";
+		};
+		B7E2424E284B6B6400A7FE0A /* DevartLabTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2424F284B6B6400A7FE0A /* DevartLabTaskTests.swift */,
+			);
+			path = DevartLabTaskTests;
+			sourceTree = "<group>";
+		};
+		B7E24258284B6B6400A7FE0A /* DevartLabTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24259284B6B6400A7FE0A /* DevartLabTaskUITests.swift */,
+				B7E2425B284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift */,
+			);
+			path = DevartLabTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E24231284B6B6300A7FE0A /* DevartLabTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E2425F284B6B6400A7FE0A /* Build configuration list for PBXNativeTarget "DevartLabTask" */;
+			buildPhases = (
+				B7E2422E284B6B6300A7FE0A /* Sources */,
+				B7E2422F284B6B6300A7FE0A /* Frameworks */,
+				B7E24230284B6B6300A7FE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevartLabTask;
+			productName = DevartLabTask;
+			productReference = B7E24232284B6B6300A7FE0A /* DevartLabTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E2424A284B6B6400A7FE0A /* DevartLabTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E24262284B6B6400A7FE0A /* Build configuration list for PBXNativeTarget "DevartLabTaskTests" */;
+			buildPhases = (
+				B7E24247284B6B6400A7FE0A /* Sources */,
+				B7E24248284B6B6400A7FE0A /* Frameworks */,
+				B7E24249284B6B6400A7FE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E2424D284B6B6400A7FE0A /* PBXTargetDependency */,
+			);
+			name = DevartLabTaskTests;
+			productName = DevartLabTaskTests;
+			productReference = B7E2424B284B6B6400A7FE0A /* DevartLabTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E24254284B6B6400A7FE0A /* DevartLabTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E24265284B6B6400A7FE0A /* Build configuration list for PBXNativeTarget "DevartLabTaskUITests" */;
+			buildPhases = (
+				B7E24251284B6B6400A7FE0A /* Sources */,
+				B7E24252284B6B6400A7FE0A /* Frameworks */,
+				B7E24253284B6B6400A7FE0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E24257284B6B6400A7FE0A /* PBXTargetDependency */,
+			);
+			name = DevartLabTaskUITests;
+			productName = DevartLabTaskUITests;
+			productReference = B7E24255284B6B6400A7FE0A /* DevartLabTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E2422A284B6B6300A7FE0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B7E24231284B6B6300A7FE0A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B7E2424A284B6B6400A7FE0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B7E24231284B6B6300A7FE0A;
+					};
+					B7E24254284B6B6400A7FE0A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B7E24231284B6B6300A7FE0A;
+					};
+				};
+			};
+			buildConfigurationList = B7E2422D284B6B6300A7FE0A /* Build configuration list for PBXProject "DevartLabTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E24229284B6B6300A7FE0A;
+			productRefGroup = B7E24233284B6B6300A7FE0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E24231284B6B6300A7FE0A /* DevartLabTask */,
+				B7E2424A284B6B6400A7FE0A /* DevartLabTaskTests */,
+				B7E24254284B6B6400A7FE0A /* DevartLabTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E24230284B6B6300A7FE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E24245284B6B6400A7FE0A /* LaunchScreen.storyboard in Resources */,
+				B7E24242284B6B6400A7FE0A /* Assets.xcassets in Resources */,
+				B7E2423D284B6B6300A7FE0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E24249284B6B6400A7FE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E24253284B6B6400A7FE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E2422E284B6B6300A7FE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E2423A284B6B6300A7FE0A /* ViewController.swift in Sources */,
+				B7E24236284B6B6300A7FE0A /* AppDelegate.swift in Sources */,
+				B7E24240284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld in Sources */,
+				B7E24238284B6B6300A7FE0A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E24247284B6B6400A7FE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E24250284B6B6400A7FE0A /* DevartLabTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E24251284B6B6400A7FE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E2425A284B6B6400A7FE0A /* DevartLabTaskUITests.swift in Sources */,
+				B7E2425C284B6B6400A7FE0A /* DevartLabTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E2424D284B6B6400A7FE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E24231284B6B6300A7FE0A /* DevartLabTask */;
+			targetProxy = B7E2424C284B6B6400A7FE0A /* PBXContainerItemProxy */;
+		};
+		B7E24257284B6B6400A7FE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E24231284B6B6300A7FE0A /* DevartLabTask */;
+			targetProxy = B7E24256284B6B6400A7FE0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E2423B284B6B6300A7FE0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E2423C284B6B6300A7FE0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E24243284B6B6400A7FE0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E24244284B6B6400A7FE0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E2425D284B6B6400A7FE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E2425E284B6B6400A7FE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E24260284B6B6400A7FE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4673NFB24A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevartLabTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E24261284B6B6400A7FE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4673NFB24A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DevartLabTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7E24263284B6B6400A7FE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4673NFB24A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevartLabTask.app/DevartLabTask";
+			};
+			name = Debug;
+		};
+		B7E24264284B6B6400A7FE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4673NFB24A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevartLabTask.app/DevartLabTask";
+			};
+			name = Release;
+		};
+		B7E24266284B6B6400A7FE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4673NFB24A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DevartLabTask;
+			};
+			name = Debug;
+		};
+		B7E24267284B6B6400A7FE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4673NFB24A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoud.com.NetworkLayer.DevartLabTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DevartLabTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E2422D284B6B6300A7FE0A /* Build configuration list for PBXProject "DevartLabTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E2425D284B6B6400A7FE0A /* Debug */,
+				B7E2425E284B6B6400A7FE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E2425F284B6B6400A7FE0A /* Build configuration list for PBXNativeTarget "DevartLabTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E24260284B6B6400A7FE0A /* Debug */,
+				B7E24261284B6B6400A7FE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E24262284B6B6400A7FE0A /* Build configuration list for PBXNativeTarget "DevartLabTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E24263284B6B6400A7FE0A /* Debug */,
+				B7E24264284B6B6400A7FE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E24265284B6B6400A7FE0A /* Build configuration list for PBXNativeTarget "DevartLabTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E24266284B6B6400A7FE0A /* Debug */,
+				B7E24267284B6B6400A7FE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7E2423E284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7E2423F284B6B6300A7FE0A /* DevartLabTask.xcdatamodel */,
+			);
+			currentVersion = B7E2423F284B6B6300A7FE0A /* DevartLabTask.xcdatamodel */;
+			path = DevartLabTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7E2422A284B6B6300A7FE0A /* Project object */;
+}
