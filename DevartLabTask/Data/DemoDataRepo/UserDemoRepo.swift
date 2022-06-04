@@ -48,22 +48,22 @@ class UserDemoRepo: UserRepo {
         user1.salary = 1200
         
         let user2 = UserModel()
-        user2.id = 1
+        user2.id = 2
         user2.name = "Ahmed"
         user2.salary = 1800
         
         let user3 = UserModel()
-        user3.id = 1
+        user3.id = 3
         user3.name = "Mohmmed"
         user3.salary = 1100
         
         let user4 = UserModel()
-        user4.id = 1
+        user4.id = 4
         user4.name = "Zaki"
         user4.salary = 1000
         
         let user5 = UserModel()
-        user5.id = 1
+        user5.id = 5
         user5.name = "Eldeep"
         user5.salary = 900
         

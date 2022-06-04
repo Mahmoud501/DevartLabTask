@@ -24,6 +24,8 @@ class UserLocalRepo: UserRepo {
             response?(res)
         } catch let error {
             res.user = nil
+            res.error = RError()
+            res.error?.desc = "Failed insert User" + " " + error.localizedDescription
             res.message = "Failed insert User" + " " + error.localizedDescription
             response?(res)
         }
@@ -41,11 +43,15 @@ class UserLocalRepo: UserRepo {
                 response?(res)
             } catch let error {
                 res.user = nil
+                res.error = RError()
+                res.error?.desc = "Failed update User" + " " + error.localizedDescription
                 res.message = "Failed update User" + " " + error.localizedDescription
                 response?(res)
             }
         }else {
             res.user = nil
+            res.error = RError()
+            res.error?.desc = "user not found"
             res.message = "user not found"
             response?(res)
         }
@@ -62,11 +68,15 @@ class UserLocalRepo: UserRepo {
                 response?(res)
             } catch let error {
                 res.user = nil
+                res.error = RError()
+                res.error?.desc = "Failed delete User" + " " + error.localizedDescription
                 res.message = "Failed delete User" + " " + error.localizedDescription
                 response?(res)
             }
         }else {
             res.user = nil
+            res.error = RError()
+            res.error?.desc = "user not found"
             res.message = "user not found"
             response?(res)
         }

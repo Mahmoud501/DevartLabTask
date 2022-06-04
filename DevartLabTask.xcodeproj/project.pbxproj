@@ -27,6 +27,13 @@
 		B7E2428C284B74EB00A7FE0A /* StorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2428B284B74EB00A7FE0A /* StorageType.swift */; };
 		B7E2428F284B771D00A7FE0A /* UserDemoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2428E284B771D00A7FE0A /* UserDemoRepo.swift */; };
 		B7E24292284B787000A7FE0A /* UserRepoInOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24291284B787000A7FE0A /* UserRepoInOut.swift */; };
+		B7E2429A284B89F300A7FE0A /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24299284B89F300A7FE0A /* UserListVC.swift */; };
+		B7E2429F284B8A9F00A7FE0A /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E2429D284B8A9F00A7FE0A /* UserCell.swift */; };
+		B7E242A0284B8A9F00A7FE0A /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E2429E284B8A9F00A7FE0A /* UserCell.xib */; };
+		B7E242A2284B8B8B00A7FE0A /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E242A1284B8B8B00A7FE0A /* UserPresenter.swift */; };
+		B7E242A4284B8CBE00A7FE0A /* UserListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E242A3284B8CBE00A7FE0A /* UserListProtocol.swift */; };
+		B7E242A6284B910400A7FE0A /* UserListVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E242A5284B910400A7FE0A /* UserListVC+TableView.swift */; };
+		B7E242A8284B917B00A7FE0A /* UserListVC+Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E242A7284B917B00A7FE0A /* UserListVC+Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +78,13 @@
 		B7E2428B284B74EB00A7FE0A /* StorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageType.swift; sourceTree = "<group>"; };
 		B7E2428E284B771D00A7FE0A /* UserDemoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDemoRepo.swift; sourceTree = "<group>"; };
 		B7E24291284B787000A7FE0A /* UserRepoInOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepoInOut.swift; sourceTree = "<group>"; };
+		B7E24299284B89F300A7FE0A /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		B7E2429D284B8A9F00A7FE0A /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B7E2429E284B8A9F00A7FE0A /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		B7E242A1284B8B8B00A7FE0A /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		B7E242A3284B8CBE00A7FE0A /* UserListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProtocol.swift; sourceTree = "<group>"; };
+		B7E242A5284B910400A7FE0A /* UserListVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserListVC+TableView.swift"; sourceTree = "<group>"; };
+		B7E242A7284B917B00A7FE0A /* UserListVC+Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserListVC+Presenter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,10 +136,10 @@
 			isa = PBXGroup;
 			children = (
 				B7E2426B284B6C2B00A7FE0A /* Application */,
-				B7E2426F284B6C4B00A7FE0A /* Presentation */,
+				B7E2426C284B6C3100A7FE0A /* Domain */,
 				B7E2426E284B6C4400A7FE0A /* Infrastructure */,
 				B7E2426D284B6C3B00A7FE0A /* Data */,
-				B7E2426C284B6C3100A7FE0A /* Domain */,
+				B7E2426F284B6C4B00A7FE0A /* Presentation */,
 			);
 			path = DevartLabTask;
 			sourceTree = "<group>";
@@ -199,6 +213,7 @@
 		B7E24270284B6C6400A7FE0A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B7E2429B284B8A8900A7FE0A /* Cells */,
 				B7E24272284B6C7000A7FE0A /* Storyboard */,
 			);
 			path = UI;
@@ -207,6 +222,7 @@
 		B7E24271284B6C6A00A7FE0A /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				B7E24295284B895C00A7FE0A /* UserList */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -294,6 +310,59 @@
 				B7E24281284B729E00A7FE0A /* UserRepo.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		B7E24295284B895C00A7FE0A /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24296284B89C800A7FE0A /* View */,
+				B7E24297284B89CC00A7FE0A /* Protocol */,
+				B7E24298284B89D300A7FE0A /* Presenter */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		B7E24296284B89C800A7FE0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7E24299284B89F300A7FE0A /* UserListVC.swift */,
+				B7E242A5284B910400A7FE0A /* UserListVC+TableView.swift */,
+				B7E242A7284B917B00A7FE0A /* UserListVC+Presenter.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7E24297284B89CC00A7FE0A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B7E242A3284B8CBE00A7FE0A /* UserListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B7E24298284B89D300A7FE0A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B7E242A1284B8B8B00A7FE0A /* UserPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B7E2429B284B8A8900A7FE0A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2429C284B8A8E00A7FE0A /* TableViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B7E2429C284B8A8E00A7FE0A /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2429D284B8A9F00A7FE0A /* UserCell.swift */,
+				B7E2429E284B8A9F00A7FE0A /* UserCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +469,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E242A0284B8A9F00A7FE0A /* UserCell.xib in Resources */,
 				B7E24245284B6B6400A7FE0A /* LaunchScreen.storyboard in Resources */,
 				B7E24242284B6B6400A7FE0A /* Assets.xcassets in Resources */,
 				B7E2423D284B6B6300A7FE0A /* Main.storyboard in Resources */,
@@ -429,18 +499,24 @@
 			files = (
 				B7E24279284B6D4400A7FE0A /* UIView.swift in Sources */,
 				B7E24280284B6E8700A7FE0A /* UserModel.swift in Sources */,
+				B7E2429A284B89F300A7FE0A /* UserListVC.swift in Sources */,
 				B7E2428A284B74C200A7FE0A /* AppStorage.swift in Sources */,
+				B7E242A8284B917B00A7FE0A /* UserListVC+Presenter.swift in Sources */,
 				B7E2428C284B74EB00A7FE0A /* StorageType.swift in Sources */,
 				B7E24236284B6B6300A7FE0A /* AppDelegate.swift in Sources */,
 				B7E24240284B6B6300A7FE0A /* DevartLabTask.xcdatamodeld in Sources */,
 				B7E24284284B730900A7FE0A /* UserLocalRepo.swift in Sources */,
+				B7E242A2284B8B8B00A7FE0A /* UserPresenter.swift in Sources */,
+				B7E2429F284B8A9F00A7FE0A /* UserCell.swift in Sources */,
 				B7E2427B284B6D5800A7FE0A /* UIWindow.swift in Sources */,
 				B7E24277284B6CE200A7FE0A /* CoreDataRepository.swift in Sources */,
 				B7E2428F284B771D00A7FE0A /* UserDemoRepo.swift in Sources */,
 				B7E24292284B787000A7FE0A /* UserRepoInOut.swift in Sources */,
 				B7E24282284B729E00A7FE0A /* UserRepo.swift in Sources */,
 				B7E24238284B6B6300A7FE0A /* SceneDelegate.swift in Sources */,
+				B7E242A4284B8CBE00A7FE0A /* UserListProtocol.swift in Sources */,
 				B7E24287284B733F00A7FE0A /* RError.swift in Sources */,
+				B7E242A6284B910400A7FE0A /* UserListVC+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
