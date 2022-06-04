@@ -16,7 +16,7 @@ class UserPresenter: UserListDataSource, UserListBuninessLogic {
     init() {}
     //dependency injection
     init(storage: AppStorage? = nil, userView: UserListView? = nil) {
-        self.storage = storage ?? AppStorage.init(type: .demo)
+        self.storage = storage ?? AppStorage.init()
         self.userView = userView
     }
     

@@ -1,6 +1,10 @@
 # DevartLabTask
 this app is about get list of users and can insert/edit/delete any user.
 
+# Enviroment
+you can change enviroment from demo to local data from appdelegate 
+this line " AppStorage.generalType = .local "
+
 # Features
 
 1- App is depend on MVP.
