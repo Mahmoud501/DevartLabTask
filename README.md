@@ -2,13 +2,13 @@
 this app is about get list of users and can insert/edit/delete any user.
 
 # Enviroment
-you can change enviroment from demo to local data from appdelegate 
-this line " AppStorage.generalType = .local "
+you can change enviroment from demo to local data from appdelegate  
+this line " AppStorage.generalType = .local "  
 
 # Features
 
-1- App is depend on MVP.
-2- App use Repository Design Pattern & Dependency injection.
+1- App is depend on MVP.  
+2- App use Repository Design Pattern & Dependency injection.  
 3- App is simple so i will not use any third party library.
 4- App provide unit test for most of functions.
 5- App handle memory lack.
